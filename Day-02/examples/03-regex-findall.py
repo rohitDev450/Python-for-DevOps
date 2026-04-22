@@ -5,6 +5,6 @@ pattern = r"DevOps"
 
 search = re.search(pattern, text)
 if search:
-    print("Pattern Found: ")
+    print("Pattern Found: ", pattern)
 else:
     print("Pattern Not Found !") 
